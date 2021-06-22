@@ -1,0 +1,50 @@
+﻿生成启动时间为 2021/2/2 9:28:19。
+日志记录详细程度设置为: Normal。     1>项目“G:\coding\wfp\WfpSampleExe\WfpSampleExe.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\WfpSampleExe.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\soft_install\vs2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Qspectre /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\WfpSampleExe.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+     1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+         stdafx.cpp
+         D:\soft_install\vs2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Qspectre /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\WfpSampleExe.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt WfpSampleExe.cpp WfpSampleExeDlg.cpp
+     1>cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+         WfpSampleExeDlg.cpp
+     1>G:\coding\wfp\WfpSampleExe\WfpSampleExeDlg.cpp(173,18): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>G:\coding\wfp\WfpSampleExe\WfpSampleExeDlg.cpp(179,15): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         WfpSampleExe.cpp
+         正在生成代码...
+       ResourceCompile:
+         F:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\WfpSampleExe.res" WfpSampleExe.rc 
+       Link:
+         D:\soft_install\vs2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"G:\coding\wfp\WfpSampleExe\Debug\WfpSampleExe.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\soft_install\vs2019\Enterprise\VC\Tools\MSVC\14.28.29333\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"G:\coding\wfp\WfpSampleExe\Debug\WfpSampleExe.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\coding\wfp\WfpSampleExe\Debug\WfpSampleExe.lib" /MACHINE:X86 /SAFESEH Debug\WfpSampleExe.res
+         Debug\stdafx.obj
+         Debug\WfpSampleExe.obj
+         Debug\WfpSampleExeDlg.obj
+     1>stdafx.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         WfpSampleExe.vcxproj -> G:\coding\wfp\WfpSampleExe\Debug\WfpSampleExe.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\WfpSampleExe.tlog\unsuccessfulbuild”。
+         正在对“Debug\WfpSampleExe.tlog\WfpSampleExe.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\coding\wfp\WfpSampleExe\WfpSampleExe.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+       “G:\coding\wfp\WfpSampleExe\WfpSampleExe.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+
+
+       “G:\coding\wfp\WfpSampleExe\WfpSampleExe.vcxproj”(Build 目标) (1) ->
+         cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+         G:\coding\wfp\WfpSampleExe\WfpSampleExeDlg.cpp(173,18): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         G:\coding\wfp\WfpSampleExe\WfpSampleExeDlg.cpp(179,15): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+
+
+       “G:\coding\wfp\WfpSampleExe\WfpSampleExe.vcxproj”(Build 目标) (1) ->
+       (Link 目标) -> 
+         stdafx.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+
+    5 个警告
+    0 个错误
+
+已用时间 00:00:22.54

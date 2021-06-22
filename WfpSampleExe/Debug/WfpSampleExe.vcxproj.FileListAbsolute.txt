@@ -1,0 +1,4 @@
+G:\coding\WfpSampleExe\Debug\WfpSampleExe.exe
+G:\coding\WfpSampleExe\Debug\WfpSampleExe.pdb
+G:\coding\wfp\WfpSampleExe\Debug\WfpSampleExe.exe
+G:\coding\wfp\WfpSampleExe\Debug\WfpSampleExe.pdb
